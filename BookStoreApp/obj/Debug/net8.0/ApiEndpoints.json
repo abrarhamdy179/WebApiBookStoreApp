@@ -1,0 +1,334 @@
+[
+  {
+    "ContainingType": "BookStoreApp.Controllers.AuthorController",
+    "Method": "AddAuthor",
+    "RelativePath": "api/Author",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "authorDtoPost",
+        "Type": "BookStoreApp.SellerDto.AuthorDto.AuthorDtoPost",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStoreApp.Controllers.AuthorController",
+    "Method": "DeleteAuthor",
+    "RelativePath": "api/Author/DeleteAuthor",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStoreApp.Controllers.AuthorController",
+    "Method": "GetAllAuthors",
+    "RelativePath": "api/Author/GetAllAuthors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStoreApp.Controllers.AuthorController",
+    "Method": "GetAuthor",
+    "RelativePath": "api/Author/GetAuthor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStoreApp.Controllers.AuthorController",
+    "Method": "UpdateAuthor",
+    "RelativePath": "api/Author/UpdateAuthor",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "authorDtoPost",
+        "Type": "BookStoreApp.SellerDto.AuthorDto.AuthorDtoPost",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStoreApp.Controllers.AuthorRelationsController",
+    "Method": "AddAuthorBookCategory",
+    "RelativePath": "api/AuthorRelations/AddAuthorBookCategory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "authorDto",
+        "Type": "BookStoreApp.SellerDto.AuthorDto.AuthorDtoRelations",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStoreApp.Controllers.AuthorRelationsController",
+    "Method": "DeleteAuthorBookCategory",
+    "RelativePath": "api/AuthorRelations/DeleteAuthorBookCategory",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStoreApp.Controllers.AuthorRelationsController",
+    "Method": "GetAllAuthorBookCategory",
+    "RelativePath": "api/AuthorRelations/GetAllAuthorBookCategory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStoreApp.Controllers.AuthorRelationsController",
+    "Method": "GetAuthorBookCategoryById",
+    "RelativePath": "api/AuthorRelations/GetAuthorBookCategoryById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStoreApp.Controllers.AuthorRelationsController",
+    "Method": "UpdateAuthorBookCategory",
+    "RelativePath": "api/AuthorRelations/UpdateAuthorBookCategory",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "authorDto",
+        "Type": "BookStoreApp.SellerDto.AuthorDto.AuthorDtoRelations",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStoreApp.Controllers.BookRelationsController",
+    "Method": "AddBookCategoryLibrary",
+    "RelativePath": "api/BookRelations/AddBookCategoryLibrary",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookDto",
+        "Type": "BookStoreApp.SellerDto.BookDto.BookDtoRelations",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStoreApp.Controllers.BookRelationsController",
+    "Method": "AddBookCategoryWithhidId",
+    "RelativePath": "api/BookRelations/AddBookCategoryWithhidId",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookDto",
+        "Type": "BookStoreApp.Dto.BookDto.BookCategDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStoreApp.Controllers.BookRelationsController",
+    "Method": "DeleteBookCategoryLibrary",
+    "RelativePath": "api/BookRelations/DeleteBookCategoryLibrary",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStoreApp.Controllers.BookRelationsController",
+    "Method": "GetAllBookCategoryLibraries",
+    "RelativePath": "api/BookRelations/GetAllBookCategoryLibraries",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStoreApp.Controllers.BookRelationsController",
+    "Method": "GetBookCategoryLibraryById",
+    "RelativePath": "api/BookRelations/GetBookCategoryLibraryById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStoreApp.Controllers.BookRelationsController",
+    "Method": "UpdateBookCategoryLibrary",
+    "RelativePath": "api/BookRelations/UpdateBookCategoryLibrary",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "bookDto",
+        "Type": "BookStoreApp.SellerDto.BookDto.BookDtoRelations",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStoreApp.Controllers.SellerController",
+    "Method": "AddSellerCategoryLibrary",
+    "RelativePath": "api/Seller/AddSellerCategoryLibrary",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sellerDto",
+        "Type": "BookStoreApp.Dto.SellerDto.SellerAuthorDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStoreApp.Controllers.SellerController",
+    "Method": "DeleteSellerCategoryLibrary",
+    "RelativePath": "api/Seller/DeleteSellerCategoryLibrary",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStoreApp.Controllers.SellerController",
+    "Method": "GetAllSellerCategoryLibrary",
+    "RelativePath": "api/Seller/GetAllSellerCategoryLibrary",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStoreApp.Controllers.SellerController",
+    "Method": "GetSellerCategoryLibraryById",
+    "RelativePath": "api/Seller/GetSellerCategoryLibraryById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStoreApp.Controllers.SellerController",
+    "Method": "UpdateSellerCategoryLibrary",
+    "RelativePath": "api/Seller/UpdateSellerCategoryLibrary",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "sellerDto",
+        "Type": "BookStoreApp.Dto.SellerDto.SellerAuthorDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
